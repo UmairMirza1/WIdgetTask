@@ -6,10 +6,9 @@ function App() {
     <>
       <MainComponent image="star.png" />
       <MainComponent image="locky.jpg" />
-      <MainComponent image="star.png" />
-      <MainComponent image="locky.jpg" />
-      <MainComponent image="star.png" />
-      <MainComponent image="locky.jpg" />
+      <MainComponent image="3.jpg" />
+      <MainComponent image="4.jpg" />
+      <MainComponent image="5.jpg" />
     </>
   );
 }
