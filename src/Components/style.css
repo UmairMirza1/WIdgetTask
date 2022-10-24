@@ -3,4 +3,19 @@
     display: flex;
     position: relative;
     flex-direction: row;
+    height: 100px;
+    gap:10px;
+    background-color:aquamarine ;
+}
+
+.Area{
+
+
+
+}
+
+.SecondDiv{
+
+    display: flex;
+    flex-direction: column;
 }
