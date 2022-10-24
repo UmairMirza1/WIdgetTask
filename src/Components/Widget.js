@@ -1,11 +1,9 @@
 import React from "react";
-import StarImage from "./star.png";
-export default function Widget() {
+export default function Widget(props) {
   return (
     <>
       <div>
-        <p>Widget</p>
-        <img class="Wimage" src={StarImage} alt=""></img>
+        <img class="Wimage" src={props.image} alt=""></img>
       </div>
     </>
   );

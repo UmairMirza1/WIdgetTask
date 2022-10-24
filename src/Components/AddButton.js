@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-export default function AddButton() {
+export default function AddButton(props) {
   return (
     <div>
-      AddButton
+      <button
+        onClick={() => {
+          props.count_change(1);
+        }}
+      >
+        {" "}
+        Increase
+      </button>
     </div>
-  )
+  );
 }

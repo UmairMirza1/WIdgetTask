@@ -1,16 +1,15 @@
-
-import './App.css';
-import MainComponent from './Components/MainComponent';
+import "./App.css";
+import MainComponent from "./Components/MainComponent";
 
 function App() {
   return (
     <>
-     <MainComponent className='MainComponent'>
-    
-     </MainComponent>
-     
-    This is my web Assignment
-
+      <MainComponent image="star.png" />
+      <MainComponent image="locky.jpg" />
+      <MainComponent image="star.png" />
+      <MainComponent image="locky.jpg" />
+      <MainComponent image="star.png" />
+      <MainComponent image="locky.jpg" />
     </>
   );
 }
